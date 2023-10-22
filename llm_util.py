@@ -3,7 +3,13 @@ import json
 import requests
 
 
-def interact_with_local_api(instruction):
+def prompt_chatllm(prompt):
+    instruction = "### Instruction: " + prompt + "\n###Response: "
+    response = interact_with_local_api(instruction, "### Instruction:", -1, 0)
+    return extract_message_content(response)
+
+
+def interact_with_local_api(instruction, stop="### Instruction:", max_tokens=-1, temperature=0):
     """
     Send a message to the local chat API and get a response.
 
@@ -12,6 +18,10 @@ def interact_with_local_api(instruction):
 
     Returns:
         dict: The JSON response from the API, or an error message.
+        :param stop:
+        :param temperature:
+        :param instruction:
+        :param max_tokens:
     """
 
     # Define the API endpoint URL and headers
@@ -25,9 +35,9 @@ def interact_with_local_api(instruction):
         "messages": [
             {"role": "user", "content": instruction}
         ],
-        "stop": ["### Instruction:"],
-        "temperature": 0.7,
-        "max_tokens": -1,
+        "stop": [stop],
+        "temperature": temperature,
+        "max_tokens": max_tokens,
         "stream": False
     }
 
