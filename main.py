@@ -101,7 +101,7 @@ def run(max=-1):
         if max > 0 and total >= max:
             break
 
-    with open("outputs_answers_gpt3_{}.txt".format("q4"), "w+") as f:
+    with open("outputs_answers_llama2-13B_{}.txt".format("q2_k"), "w+") as f:
         for k, (output, answer, prob_type, prob_level, fname) in enumerate(
                 zip(outputs, answers, types, levels, fnames_list)):
             f.write("{} TYPE: {} | LEVEL: {} | OUTPUT: {} | ANSWER: {} | FNAME: {}\n".format(k, prob_type, prob_level,
