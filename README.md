@@ -1,2 +1,2 @@
 # llama2-MATH-benchmark
-Code to benchmark llama 2 on MATH.
+This is a repository made to benchmark LlaMa-2 and uses the LM Studio local webserver to run inference. A significant chunk of the code in this repositary was adapted from the official MATH repository. I created this repositary for my IB Extended Essay.
