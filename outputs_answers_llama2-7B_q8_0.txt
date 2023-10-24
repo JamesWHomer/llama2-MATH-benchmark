@@ -1,0 +1,52 @@
+#####################
+Prealgebra Level 1 Accuracy = 9/86 = 0.105
+Prealgebra Level 2 Accuracy = 19/177 = 0.107
+Prealgebra Level 3 Accuracy = 14/224 = 0.062
+Prealgebra Level 4 Accuracy = 13/191 = 0.068
+Prealgebra Level 5 Accuracy = 6/193 = 0.031
+Algebra Level 1 Accuracy = 8/135 = 0.059
+Algebra Level 2 Accuracy = 4/201 = 0.020
+Algebra Level 3 Accuracy = 11/261 = 0.042
+Algebra Level 4 Accuracy = 7/283 = 0.025
+Algebra Level 5 Accuracy = 2/307 = 0.007
+Number Theory Level 1 Accuracy = 5/30 = 0.167
+Number Theory Level 2 Accuracy = 5/92 = 0.054
+Number Theory Level 3 Accuracy = 7/122 = 0.057
+Number Theory Level 4 Accuracy = 2/142 = 0.014
+Number Theory Level 5 Accuracy = 3/154 = 0.019
+Counting & Probability Level 1 Accuracy = 3/39 = 0.077
+Counting & Probability Level 2 Accuracy = 4/101 = 0.040
+Counting & Probability Level 3 Accuracy = 4/100 = 0.040
+Counting & Probability Level 4 Accuracy = 1/111 = 0.009
+Counting & Probability Level 5 Accuracy = 2/123 = 0.016
+Geometry Level 1 Accuracy = 3/38 = 0.079
+Geometry Level 2 Accuracy = 3/82 = 0.037
+Geometry Level 3 Accuracy = 5/102 = 0.049
+Geometry Level 4 Accuracy = 1/125 = 0.008
+Geometry Level 5 Accuracy = 3/132 = 0.023
+Intermediate Algebra Level 1 Accuracy = 1/52 = 0.019
+Intermediate Algebra Level 2 Accuracy = 5/128 = 0.039
+Intermediate Algebra Level 3 Accuracy = 3/195 = 0.015
+Intermediate Algebra Level 4 Accuracy = 3/248 = 0.012
+Intermediate Algebra Level 5 Accuracy = 1/280 = 0.004
+Precalculus Level 1 Accuracy = 3/57 = 0.053
+Precalculus Level 2 Accuracy = 2/113 = 0.018
+Precalculus Level 3 Accuracy = 1/127 = 0.008
+Precalculus Level 4 Accuracy = 0/114 = 0.000
+Precalculus Level 5 Accuracy = 0/135 = 0.000
+#####################
+Level 1 Accuracy = 32/437 = 0.073
+Level 2 Accuracy = 42/894 = 0.047
+Level 3 Accuracy = 45/1131 = 0.040
+Level 4 Accuracy = 27/1214 = 0.022
+Level 5 Accuracy = 17/1324 = 0.013
+#####################
+Prealgebra Accuracy = 61/871 = 0.070
+Algebra Accuracy = 32/1187 = 0.027
+Number Theory Accuracy = 22/540 = 0.041
+Counting & Probability Accuracy = 14/474 = 0.030
+Geometry Accuracy = 15/479 = 0.031
+Intermediate Algebra Accuracy = 13/903 = 0.014
+Precalculus Accuracy = 6/546 = 0.011
+#####################
+Overall Accuracy = 163/5001 = 0.033
