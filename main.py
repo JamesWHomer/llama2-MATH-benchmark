@@ -101,7 +101,7 @@ def run(max=-1):
         if max > 0 and total >= max:
             break
 
-    with open("outputs_answers_llama2-13B_{}.txt".format("q4_0"), "w+") as f:
+    with open("outputs_answers_llama2-13B_{}.txt".format("q4_0 TEST"), "w+") as f:
         for k, (output, answer, prob_type, prob_level, fname) in enumerate(
                 zip(outputs, answers, types, levels, fnames_list)):
             f.write("{} TYPE: {} | LEVEL: {} | OUTPUT: {} | ANSWER: {} | FNAME: {}\n".format(k, prob_type, prob_level,
@@ -149,11 +149,6 @@ def run(max=-1):
         print("Overall Accuracy = {}/{} = {:.3f}".format(correct, total, correct / total))
         f.write("Overall Accuracy = {}/{} = {:.3f}\n".format(correct, total, correct / total))
 
-def iscorrect(model_output, answer):
-    cleaned_answer = remove_boxed(last_boxed_only_string(answer))
-    print(cleaned_answer)
-    return
-
 
 def call_engine(problem):
     test_question = "\nProblem: " + problem + "\n"
@@ -169,4 +164,4 @@ if __name__ == '__main__':
     #print(message_content)
     #response = call_engine("How many vertical asymptotes does the graph of $y=\\frac{2}{x^2+x-6}$ have?")
     #print(response)
-    run(-1)
+    run(15000)
